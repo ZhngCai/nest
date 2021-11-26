@@ -1,0 +1,10 @@
+###
+GET  http://localhost:6400/wechat/public-account/test HTTP/1.1
+
+
+
+###
+GET  http://localhost:6400/wechat/public-account/getfile HTTP/1.1
+
+###
+GET  http://localhost:6400/wechat/public-account/setfile HTTP/1.1

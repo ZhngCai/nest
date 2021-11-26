@@ -1,0 +1,19 @@
+{
+    "workbench.colorTheme": "One Dark Pro",
+    "eslint.enable": true,
+    "eslint.options": {
+      "extensions": [".js",  ".ts", ".tsx"]
+    },
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "eslint.validate": [
+      "html",
+      "javascript",
+      "typescript",
+      "javascriptreact",
+      "typescriptreact"
+    ],
+    "vetur.format.defaultFormatter.html": "prettier"
+  }

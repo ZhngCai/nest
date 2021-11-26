@@ -1,0 +1,12 @@
+version: '3.3'
+
+services:
+  db:
+    image: postgres:10.8
+    environment:
+      TZ: "Asia/Shanghai"
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - ./postgres:/var/lib/postgresql/data
+    ports:
+      - 5433:5432
